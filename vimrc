@@ -8,5 +8,3 @@ command G !git add * | git commit -a -m update | git push
 set autoindent
 set background=dark
 colo solarized
-let g:solarized_termcolors = 256
-
