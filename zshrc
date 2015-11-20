@@ -9,4 +9,7 @@ zstyle :compinstall filename '/Users/averykarlin/.zshrc'
 
 autoload -Uz compinit
 compinit
+autoload -U promptinit
+promptinit
+prompt suse
 # End of lines added by compinstall
