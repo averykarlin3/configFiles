@@ -15,3 +15,4 @@ prompt suse
 if [ -d "$HOME/.bin" ] ; then
     export PATH="$HOME/.bin:$PATH"
 fi
+export PROMPT="%n@%m:%U%~%u $"
