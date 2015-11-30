@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
 	}
 	else if(argc == 1) {
 		execute(commit);
+		printf("Done");
 		execute(push);
 	}
 	else {
