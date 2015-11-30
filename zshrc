@@ -12,4 +12,7 @@ compinit
 autoload -U promptinit
 promptinit
 prompt suse
-# End of lines added by compinstall
+if [ -d "$HOME/.bin" ] ; then
+    export PATH="$HOME/.bin:$PATH"
+fi
+export PROMPT="%n@%m:%B%~%b $"
