@@ -10,4 +10,3 @@ push.o: push.c
 
 clean:
 	rm *.o
-	rm push
