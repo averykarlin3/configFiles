@@ -9,3 +9,8 @@ set autoindent
 set background=dark
 colo solarized
 set t_Co=16;
+filetype plugin on
+set shellslash
+set grepprg=grep\ -nH\ $*
+filetype indent on
+let g:tex_flavor = 'latex'
