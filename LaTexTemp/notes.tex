@@ -3,12 +3,32 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{color}
+\usepackage{indentfirst} %Comment out for no indenting of first paragraph
+\usepackage[parfill]{parskip}
 \usepackage{setspace}
 \usepackage{tikz}
 \usepackage{amsmath}
+%\usepackage{hyperref}
+%\hypersetup {
+%	colorlinks,
+%	citecolor=black,
+%	filecolor=black,
+%	linkcolor=black,
+%	urlcolor=black
+%}
 \usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{color}
+%\usepackage{verbatim}\begin{document}
 
-\begin{document}
+\newenvironment{itemize*}
+{
+	\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parsep}{0pt}
+	}
+	{\end{itemize}
+}
 
 \title{}
 \author{Avery Karlin}
