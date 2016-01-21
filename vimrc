@@ -15,3 +15,4 @@ set grepprg=grep\ -nH\ $*
 "filetype indent on
 let g:tex_flavor = 'latex'
 let g:Imap_FreezeImap = 1
+let g:Tex_DefaultTargetFormat = 'pdf'
