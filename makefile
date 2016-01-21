@@ -1,6 +1,6 @@
-vim: vim
+vim:
 	cp -r vim ~/.vim
-vimrc: vimrc
+vimrc:
 	cp vimrc ~/.vimrc
-zshrc: zshrc
+zshrc:
 	cp zshrc ~/.zshrc
