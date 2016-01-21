@@ -83,18 +83,15 @@ TexLet g:Tex_DebugLog = ''
 " generating a .dvi file. Change this line if you want to set another default.
 " NOTE: Make sure that a target for this format exists in the 'Compiler rules'
 "       section below and is set up properly for your system.
-if has('macunix')
-	TexLet g:Tex_DefaultTargetFormat = 'pdf'
-else
-	TexLet g:Tex_DefaultTargetFormat = 'dvi'
-endif
+TexLet g:Tex_DefaultTargetFormat = 'pdf'
 
 " A comma seperated list of formats which need multiple compilations to be
 " correctly compiled.
 TexLet g:Tex_MultipleCompileFormats = 'dvi'
 
-Uncomment this line if you compile ps files via dvi files.
+"Uncomment this line if you compile ps files via dvi files.
 TexLet g:Tex_FormatDependency_ps = 'dvi,pdf'
+TexLet g:Tex_FormatDependency_pdf = 'dvi,pdf'
 
 " ------------------------------------------------------------------------------
 " Compiler rules {{{
