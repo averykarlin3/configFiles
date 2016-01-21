@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+
+%\singlespace
+%\onehalfspace
+\doublespace
+
+\newcommand{\lastname}{Karlin}
+\newcommand{\publisher}{}
+\newcommand{\class}{}
+\title{}
+\author{Avery Karlin}
+\date{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancypagestyle{first} {
+	\fancyhf{}
+	\rhead{\thepage}
+}
+\rhead{\lastname, \thepage}
+\thispagestyle{first}
+
+\begin{flushleft}
+\@author \\
+\class \\
+\publisher \\
+\@date \\
+\@title \\
+\end{flushleft}
+
+%\begin{center}
+%\@title \\
+%\end{center}
+
+\end{document}

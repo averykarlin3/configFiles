@@ -3,23 +3,22 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{color}
-\usepackage{indentfirst} %Comment out for no indenting of first paragraph
+\usepackage{indentfirst} %Comment out for no first paragraph indent
 \usepackage[parfill]{parskip}
 \usepackage{setspace}
 \usepackage{tikz}
 \usepackage{amsmath}
-%\usepackage{hyperref}
-%\hypersetup {
-%	colorlinks,
-%	citecolor=black,
-%	filecolor=black,
-%	linkcolor=black,
-%	urlcolor=black
-%}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-%\usepackage{color}
-%\usepackage{verbatim}\begin{document}
+
+\usepackage{hyperref}
+\hypersetup {
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
 
 \newenvironment{itemize*}
 {
@@ -30,17 +29,21 @@
 	{\end{itemize}
 }
 
+\begin{document}
+
 \title{}
 \author{Avery Karlin}
 \date{}
+\newcommand{\textbook}{}
+\newcommand{\teacher}{}
 
 \maketitle
 \newpage
 \tableofcontents
 \vspace{11pt}
 \noindent
-\underline{Primary Textbook}: \\
-\underline{Teacher}:
+\underline{Primary Textbook}: \textbook\\
+\underline{Teacher}: \teacher
 \newpage
 
 \end{document}
