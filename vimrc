@@ -12,6 +12,6 @@ set t_Co=16;
 filetype plugin on
 set shellslash
 set grepprg=grep\ -nH\ $*
-filetype indent on
+"filetype indent on
 let g:tex_flavor = 'latex'
 let g:Imap_FreezeImap = 1
