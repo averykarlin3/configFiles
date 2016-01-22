@@ -88,7 +88,7 @@ function! MakeTexFolds(force)
 
 	" Folding items which are not caught in any of the standard commands,
 	" environments or sections.
-	let s = 'item,slide,preamble,<<<'
+	let s = 'preamble,<<<'
 	if !exists('g:Tex_FoldedMisc')
 		let g:Tex_FoldedMisc = s
 	elseif g:Tex_FoldedMisc[0] == ','
