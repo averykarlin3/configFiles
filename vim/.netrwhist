@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/averykarlin/.vim/ftplugin/latex-suite'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/averykarlin/.texmf-var/fonts/pk'
+let g:netrw_dirhist_2='/home/averykarlin/.texmf-var/fonts'
+let g:netrw_dirhist_3='/home/averykarlin/.texmf-var'
+let g:netrw_dirhist_4='/home/averykarlin'
+let g:netrw_dirhist_5='/home'
+let g:netrw_dirhist_6='/'
