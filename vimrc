@@ -27,3 +27,6 @@ function! GTxt()
 	$s/\n/\r\\end{outline*}/g
 	1s/\\end{outline\*}\n//g
 endfunction
+
+set ignorecase
+set smartcase
