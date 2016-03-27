@@ -31,3 +31,5 @@ endfunction
 set ignorecase
 set smartcase
 set spell spelllang=en_us
+autocmd BufWritePost,FileWritePost *.tex :silent !pdflatex -interaction=nonstopmode % &> /dev/null
+
