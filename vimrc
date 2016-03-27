@@ -28,6 +28,10 @@ function! GTxt()
 	1s/\\end{outline\*}\n//g
 endfunction
 
+function! Enum()
+
+endfunction
+
 set ignorecase
 set smartcase
 set spell spelllang=en_us
